@@ -1,0 +1,78 @@
+git log
+commit 8665d1d2b54ae7a50e827f836a6216d30f137a44 (HEAD -> main, origin/main, origin/HEAD)
+Author: UmVitorAleatorio <vitorhiper@hotmail.com>
+Date:   Mon Jun 24 13:51:38 2024 -0300
+
+    Mudanças no titulo e no gitignore
+
+commit 10680ea9db13f85653e9037f684b9545042eb7a9
+Author: UmVitorAleatorio <vitorhiper@hotmail.com>
+Date:   Sat Jun 22 21:09:46 2024 -0300
+
+    Modularizando desafios
+
+commit a939d9f44a6a20c663e221154c4c20a80b8ead02
+Merge: 339f85e a51031e
+Author: UmVitorAleatorio <vitorhiper@hotmail.com>
+Date:   Thu Jun 13 21:09:16 2024 -0300
+
+    Merge branch 'main' of https://github.com/UmVitorAleatorio/Programa-de-formacao-AGER
+
+commit a51031efc439312b2e2039082c279acb66fec68d
+Merge: c5fa1ce 59e6429
+Author: UmVitorAleatorio <vitorhiper@hotmail.com>
+Date:   Thu Jun 13 21:04:50 2024 -0300
+
+    Merge branch 'Desafios' of https://github.com/UmVitorAleatorio/Programa-de-formacao-AGER
+
+commit 59e64295931719ea9945b5d1066dfdabb7f701fe (origin/Desafios)
+Author: UmVitorAleatorio <vitorhiper@hotmail.com>
+Date:   Thu Jun 13 20:58:25 2024 -0300
+
+    Enviando o desafio 4
+
+commit 339f85e05e422171aed3921d00d9c37c2cc48546
+Author: UmVitorAleatorio <vitorhiper@hotmail.com>
+Date:   Fri Jun 7 17:41:25 2024 -0300
+
+    Adicionando a função do número aleatório usando o Math.random
+
+commit c5fa1ce4eaa6bcb0223b6a84b772f4473dc8be99
+Merge: 65b308b e60ce90
+Author: UmVitorAleatorio <vitorhiper@hotmail.com>
+Date:   Fri Jun 7 01:23:57 2024 -0300
+
+    Merge branch 'main' of https://github.com/UmVitorAleatorio/Programa-de-formacao-AGER
+
+commit 65b308bbebf82983825c9ffa115b803af4b5d572
+Author: UmVitorAleatorio <vitorhiper@hotmail.com>
+Date:   Fri Jun 7 01:21:34 2024 -0300
+
+    Merge unrelated histories
+
+commit a1bf9b7b3ca357edda72dbce90dd47f6922df532
+Merge: 494d39c 6002409
+Author: UmVitorAleatorio <vitorhiper@hotmail.com>
+Date:   Fri Jun 7 01:17:16 2024 -0300
+
+    Merge branch 'Desafios'
+
+commit 60024092c5a20e9c5436f5c47be6ff1b0d03a05f
+Author: UmVitorAleatorio <vitorhiper@hotmail.com>
+Date:   Thu Jun 6 21:28:28 2024 -0300
+
+    Enviando as pastas de Desafios
+
+
+commit e60ce902d4f1abdc73a5b773b73c3772a3ba8de3
+Author: UmVitorAleatorio <111451933+UmVitorAleatorio@users.noreply.github.com>
+Date:   Wed Jun 5 21:28:35 2024 -0300
+
+    Create README.md
+
+commit 494d39c7cf6e82777228744b50f1ab1640523d9b
+Author: UmVitorAleatorio <vitorhiper@hotmail.com>
+Date:   Wed Jun 5 21:23:55 2024 -0300
+
+    Primeiro commit, salvando o projeto no github e fazendo seu versionamento, commit feito atrasado...
+(END)
