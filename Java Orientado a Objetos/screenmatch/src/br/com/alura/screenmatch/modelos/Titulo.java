@@ -1,12 +1,19 @@
 package br.com.alura.screenmatch.modelos;
 
-public class Titulo {
+import java.io.Serializable;
+
+public class Titulo implements Comparable<Titulo>{
     private String nome;
     private int anoDeLancamento;
     private boolean incluidoNoPlano;
     private double somaDasAvaliacoes;
     private int totalDeAvaliacoes;
     private int duracaoEmMinuto;
+
+    public Titulo(String nome, int anoDeLancamento) {
+        this.nome = nome;
+        this.anoDeLancamento = anoDeLancamento;
+    }
 
     public String getNome() {
         return nome;
@@ -58,4 +65,8 @@ public class Titulo {
         return somaDasAvaliacoes / totalDeAvaliacoes;
     }
 
+    @Override
+    public int compareTo(Titulo outroTitulo) {
+        return this.getNome().compareTo(outroTitulo.getNome());
+    }
 }
