@@ -1,7 +1,7 @@
 package br.com.alura.screenmatch.principal;
 
 import br.com.alura.screenmatch.model.*;
-import br.com.alura.screenmatch.repository.SerieRepository;
+import br.com.alura.screenmatch.repository.ISerieRepository;
 import br.com.alura.screenmatch.service.ConsumoApi;
 import br.com.alura.screenmatch.service.ConverteDados;
 
@@ -17,14 +17,14 @@ public class Principal {
     private final String API_KEY = "&apikey=6585022c";
     private List<DadosSerie> dadosSerie = new ArrayList<>();
 
-    private SerieRepository repositorio;
+    private ISerieRepository repositorio;
 
     private List<Serie> series = new ArrayList<>();
 
     private Optional<Serie> serieBusca;
 
 
-    public Principal(SerieRepository repositorio) {
+    public Principal(ISerieRepository repositorio) {
         this.repositorio = repositorio;
     }
 
